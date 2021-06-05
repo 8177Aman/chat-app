@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ 	 <a class="navbar-brand" href="#">
+    <img src=" images/test.png" width="50" height="50" alt="" loading="lazy">
+  </a>
+  <a class="navbar-brand" href="#">ONINE TEST SYSTEM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Active Test</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Notes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Design Patterns</a>
+          <a class="dropdown-item" href="#">Computer Networks</a>
+          <a class="dropdown-item" href="#">Software Engineering and Program Design</a>
+          <a class="dropdown-item" href="#">Artificial Intelligence</a>
+           <a class="dropdown-item" href="#">oops</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="#">Notice</a>
+      </li>
+    </ul>
+<div>
+     <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-3 mr-sm-5" type="submit">Search</button>
+  </form>
+</div>
+
+    <a class="navbar-brand" href="#">
+    <img src="images/M1.jpg" class="rounded-circle " width="50" height="50"  alt="" loading="lazy">
+	</a>
+
+	<div class="dropdown">
+  <button type="button" class="btn btn-Secondary btn-lg  text-white bg- dropdown-toggle" data-toggle="dropdown">
+    John Cena
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="profile.html">Profile</a>
+    <a class="dropdown-item" href="#" data-target="#changepass-modal" data-toggle="modal" role="button">Change Password</a>
+    <a class="dropdown-item" href="login.html">Log Out</a>
+  </div>
+    </div>
+     
+     <div class="modal fade" id="changepass-modal"> 
+       <div class ="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div id="div-forms">
+					<form>
+						<h3>Set a new password</h3>
+						 <label>Current Password</label>
+		    <div class="form-group pass_show"> 
+                <input type="password"  class="form-control" placeholder="Current Password"> 
+            </div> 
+		       <label>New Password</label>
+            <div class="form-group pass_show"> 
+                <input type="password"   class="form-control" placeholder="New Password" > 
+            </div> 
+		       <label>Confirm Password</label>
+            <div class="form-group pass_show"> 
+                <input type="password"   class="form-control" placeholder="Confirm Password"> 
+            </div> 
+			<button type="button" class="btn btn-light">Cancel</button>
+             <button type="button" class="btn btn-success">change</button>
+					</form>
+					
+				</div>
+				
+			</div>
+			 
+		</div>
+       </div>
+
+     </div>
+
+ 
+    
+</body>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>

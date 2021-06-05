@@ -1,0 +1,16 @@
+
+
+
+.users {
+                margin:4px, 4px;
+                padding:4px;
+              background-color: #f5f7fb;
+                height: 50%;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+            }
+
+.chat-box{
+	background-color: #fff;
+}            

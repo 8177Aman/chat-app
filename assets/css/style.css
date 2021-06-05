@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+.bg-mattBlackLight {
+  background-color: #ec6271;
+}
+body{
+      height: 92vh;
+      background-color: #f7f7f7 !important;
+}
+.text-mattBlackLight {
+  color: #f8eff0;
+}
+
+.bg-mattBlackDark, body, .nav-link:hover, .nav-link.active {
+  background-color: #6c757d;;
+}
+
+
+.bg-mattGray {
+  background-color: #878d8d;
+}
+
+.text-mattGray, body, .nav-link .icon, .nav-link .text {
+  color: #ffffff;
+}
+
+.bg-mattRed {
+  background-color: #ec6271;
+}
+
+.text-mattRed, .nav-link:hover .icon,
+.nav-link:hover .text, .nav-link.active .icon,
+.nav-link.active .text {
+  color: #ec6271;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.wrapper {
+  margin-top: 3.5rem;
+}
+
+.wrapper .sideMenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: 3.5rem auto auto;
+  left: 0;
+  width: 12.5rem;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  z-index: 2000;
+}
+
+.wrapper .content {
+  width: 100%;
+  margin-left: 0rem;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.wrapper.active .sideMenu {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  white-space: nowrap;
+}
+
+.nav-link .icon {
+  margin-right: 0.25rem;
+  font-size: 1.875rem;
+  vertical-align: middle;
+  height: 2rem;
+  width: 2rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link .text {
+  font-size: 1rem;
+}
+
+.nav-link .heading {
+  font-size: 2rem;
+}
+
+.icon-head{
+  font-size: 1.875rem;
+}
+
+@media (min-width: 992px) {
+  .wrapper .sideMenu {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .wrapper .content {
+    margin-left: 12.5rem;
+  }
+  .wrapper.active .sideMenu {
+    width: 5rem;
+  }
+  .wrapper.active .sideMenu .nav-link {
+    text-align: center;
+  }
+  .wrapper.active .sideMenu .nav-link .icon {
+    margin-right: 0;
+  }
+  .wrapper.active .sideMenu .nav-link .text {
+    display: none;
+  }
+  .wrapper.active .content {
+    margin-left: 5rem;
+  }
+}
+.avtar{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.scroll {
+ margin:4px, 4px;
+ padding:4px;
+ padding-right: 20px; 
+ height: 480px;
+ overflow-x: hidden;
+ overflow-y: auto;
+ text-align:justify;
+            }
+
+.user-list-img{
+    border-radius: 100px;
+    width: 72px;
+}
+.user-list-detail-name{  
+      position: absolute;
+    right: 229px;
+    width: 211px;
+    
+
+}
+.user-list-detail-status{  
+    position: absolute;
+    right: 229px;
+    width: 211px;
+    
+
+}
+/*# sourceMappingURL=style.css.map */
+
+/*user list*/
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 9px solid #ddd;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  /*background-color: #f6f6f6;*/
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+/*send*/
+.typing-area{
+  /*position: fixed;*/
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-msg{
+  height: 30px;
+  width: calc(100% - 58px);
+  font-size: 16px;
+  padding: 9px 20px 12px 40px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 13px;
+
+
+}
+
+
+/*Message*/
+
+.outbox{
+  display: flex;  "">
+  <div style="max-width: calc(100% - 130px);background: #333;margin-left: auto;
+  color: #fff;
+  border-radius: 18px 18px 0 18px;
+}
